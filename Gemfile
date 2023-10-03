@@ -50,7 +50,7 @@ group :development, :test do
   gem 'guard', '~> 2.18', '>= 2.18.1'
 
   # Guard live reload
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', require: false
 end
 
 group :development do
